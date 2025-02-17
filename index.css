@@ -10,7 +10,6 @@ body{
 }
 
 .header {
-    padding-top: 120px;
     display: flex;
     padding-left: 10px;
     align-items: center;
@@ -20,26 +19,8 @@ body{
 .title{
     font-family: "Darumadrop One", serif;
     font-weight: 400;
-    font-style: normal; 
+    font-style: 32px; 
     color:aqua;
-    margin-top: 50px;
-}
-
-.headerSvg{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    padding-top: 20px;
-    padding-left: 40px;
-    transform-origin: 50% 50%;
-    animation: headerSvg 3s infinite alternate ease-in-out;
-}
-
-@keyframes headerSvg {
-    100% {
-        transform: rotate(3600deg);
-    }
 }
 
 .sliderImg{
